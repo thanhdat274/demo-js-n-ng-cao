@@ -1,0 +1,18 @@
+Tạo fodel mới ném vào vs code 
+Và dùng Những câu lệnh sau để cài đặt môi trg
+1. Câu lệnh cài template: "npm init vite@latest my-app --template vanilla" => chọn cái đầu tiên tên vanilla bấm enter => chọn js xong bấm enter vào nó hiển thị ra done now run thì cd vào thư mục đó, xong chạy câu lệnh "npm i". Muốn bật vs code của fodel đó lên thì gõ "code ." là đc
+Tiếp theo là cài môi trg navigo: npm i navigo
+tiếp nữa là cài môi trg axios: npm i axios
+còn hiển thị thông báo cho đẹp thì dùng toastr: npm i toast
+cài xong thì chạy câu lệnh "npm run dev" để chạy code =))))
+nhìn tháy dòng này  ➜  Local:   http://127.0.0.1:5173/  thì bấm vào để mở web thế là chạy rồi nhé +))))
+
+và cái đến db json thì dùng câu lệnh này:
+B1: npm i -D json-server json-server-auth
+B2: tạo file db.json, tạo collection mới
+"users":[]
+B3: package.json
+sửa json-server --watch thành json-server-auth --watch
+B4: npm run start:server (đây để chạy server)
+
+
